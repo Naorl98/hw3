@@ -15,7 +15,6 @@ int substring(char *str1, char *str2)
             {
                 iff = 0;
                 break;
-                ;
             }
             i++;
         }
