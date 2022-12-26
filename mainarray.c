@@ -12,7 +12,7 @@ int main(){
     insertion_sort(arr, SIZE);
     for (int i = 0; i < SIZE; i++)
     {
-        if(i == (SIZE-1)) printf("%d",*(arr+i)); 
+        if(i == (SIZE-1)) printf("%d\n",*(arr+i)); 
         else printf("%d,",*(arr+i));
         
     }
