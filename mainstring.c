@@ -11,7 +11,7 @@ int getLine(char line[SIZELINE]){
     newchar = fgetc(stdin);
     if(newchar == '\0' ||newchar == EOF) return 0;
     if(newchar == '\n') break;
-    line[i] = newchar;
+    if(newchar != '/r') line[i] = newchar;
     }
     return 1;
 }
