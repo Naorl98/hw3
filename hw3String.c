@@ -48,9 +48,3 @@ int similar(char *s, char *t, int n)
     }
     return 1;
 }
-int main()
-{
-
-    int i = substring("baa", "banbaann");
-    printf("%d\n", i);
-}
